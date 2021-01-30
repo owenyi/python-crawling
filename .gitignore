@@ -1,0 +1,17 @@
+# Editors
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+*.pyc
