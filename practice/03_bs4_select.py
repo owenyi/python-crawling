@@ -34,6 +34,7 @@ html = """
 bsObj = BeautifulSoup(html, "html.parser")
 print("HTML STRING -> BS OBJECT :", bsObj)
 
+# find vs select
 print("FIND SPECIFIC TAG(FIRST ONE) :", bsObj.find("li"))
 print("SELECT SPECIFIC TAG(FIRST ONE) :", bsObj.select_one("li"))
 print(bsObj.find("li") == bsObj.select_one("li"))
