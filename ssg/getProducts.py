@@ -1,7 +1,7 @@
 from libs.urlToBsObj import urlToBsObj
 
 def getProducts(keyword):
-    url = "http://www.ssg.com/search.ssg?target=all&query=된장"
+    url = "http://www.ssg.com/search.ssg?target=all&query=" + keyword
     bsObj = urlToBsObj(url)
 
     liList = bsObj.select("ul#idProductImg>li")
